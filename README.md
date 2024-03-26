@@ -55,21 +55,23 @@ Figure -02 HALF Subtractor
 Developed by:Piyush kumar 
 RegisterNumber:2122232220075
 */
-```module ex3(a,b,w,x,y,z);
+~~~
+module ex3(a,b,w,x,y,z);
 input a,b;
 output w,x,y,z;
 xor(w,a,b);
 and(x,a,b);
 xor(y,a,b);
 and(z,~a,b);
-endmodule```
+endmodule
+~~~
 
 
 **RTL Schematic**
-![Screenshot 2024-03-19 140349](https://github.com/H515piyush/HALF_ADDER_SUBTRACTOR/assets/147472999/dd097f09-45b9-49be-b775-af5f21fca640)
+![Screenshot 2024-03-19 140349](https://github.com/H515piyush/HALF_ADDER_SUBTRACTOR/assets/147472999/dbee0d19-50db-449b-9328-e4a81f0c6b09)
 
-![Screenshot 2024-03-19 140714](https://github.com/H515piyush/HALF_ADDER_SUBTRACTOR/assets/147472999/28418328-ddfc-4745-b28c-090da025e21a)
 
+![Screenshot 2024-03-19 140714](https://github.com/H515piyush/HALF_ADDER_SUBTRACTOR/assets/147472999/a680b9b9-b07f-4f3d-b53a-c83b6d5d4f67)
 
 
 
