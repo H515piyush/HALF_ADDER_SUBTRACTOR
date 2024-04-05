@@ -56,6 +56,8 @@ Developed by:Piyush kumar
 RegisterNumber:2122232220075
 */
 ~~~
+
+half adder
 module ex3(a,b,w,x,y,z);
 input a,b;
 output w,x,y,z;
@@ -64,11 +66,20 @@ and(x,a,b);
 xor(y,a,b);
 and(z,~a,b);
 endmodule
+
+half subt:
+module ex03(a,b,D,Bo);
+input a,b;
+output D,Bo;
+assign D = a ^ b;
+assign Bo = ~a & b;
+endmodule
 ~~~
 
 
 **RTL Schematic**
 ![Screenshot 2024-03-19 140349](https://github.com/H515piyush/HALF_ADDER_SUBTRACTOR/assets/147472999/dbee0d19-50db-449b-9328-e4a81f0c6b09)
+![half sub output rtl](https://github.com/H515piyush/HALF_ADDER_SUBTRACTOR/assets/147472999/05076555-d507-4368-a12a-269185a2b859)
 
 Output/TIMING Waveform:
 
@@ -79,7 +90,8 @@ HALF ADDER:
 
 HALF SUTRACTOR:
 
-![318398899-5bd0588f-6b33-4352-bfb0-2e33f3f77f13](https://github.com/H515piyush/HALF_ADDER_SUBTRACTOR/assets/147472999/f7edc790-8461-471b-b654-9db61ca6b106)
+![half sub wave form](https://github.com/H515piyush/HALF_ADDER_SUBTRACTOR/assets/147472999/8cf68a8b-09a3-4b76-94c7-3b05d1027a5d)
+
 
 
 
